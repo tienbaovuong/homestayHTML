@@ -1,0 +1,45 @@
+.header1{
+    background-color: #FFFFFF;
+
+    padding-top: 5px;
+    padding-bottom: 40px;
+    padding-left:  5%;
+
+    vertical-align: top;
+}
+.header1 .logo, .header1 .tel, .header1 .book_button,.header1 .language{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 50px;
+}
+
+.header1 .address, .header1 .mail{
+    display: inline-block;
+    width: 9%;
+
+    font-size: 14px;
+    line-height: 24px;
+    color: #6B6460;
+
+    margin-left: 8%;
+    vertical-align: top;
+}
+
+.header1 .address img, .header1 .mail img{
+    position: relative;
+    top: 50px;
+    left: -55px;
+}
+.header1 .logo{
+    margin-top: 30px;
+    margin-left: 5%;
+}
+.header1 .tel{
+    margin-left: 5%;
+}
+.header1 .book_button{
+   margin-left:  5%;
+}
+.header1 .language{
+    margin-left: 5%;
+}
