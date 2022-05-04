@@ -1,10 +1,10 @@
+/*header thu nhat*/
 .header1{
     background-color: #FFFFFF;
 
     padding-top: 5px;
     padding-bottom: 40px;
-    padding-left:  5%;
-
+    padding-left:  16%;
     vertical-align: top;
 }
 .header1 .logo, .header1 .tel, .header1 .book_button,.header1 .language{
@@ -15,13 +15,13 @@
 
 .header1 .address, .header1 .mail{
     display: inline-block;
-    width: 9%;
+    width: 7%;
 
     font-size: 14px;
     line-height: 24px;
     color: #6B6460;
 
-    margin-left: 8%;
+    margin-left: 5%;
     vertical-align: top;
 }
 
@@ -32,14 +32,45 @@
 }
 .header1 .logo{
     margin-top: 30px;
-    margin-left: 5%;
+    margin-left: 8%;
+    width: 15%;
+}
+.header1 .logo img{
+    width: 100%;
 }
 .header1 .tel{
-    margin-left: 5%;
+    margin-left: 7%;
 }
 .header1 .book_button{
    margin-left:  5%;
 }
 .header1 .language{
-    margin-left: 5%;
+    margin-left: 5px;
+}
+.header1 .sidemenu{
+    display: none;
+}
+/* header thu 2 */
+.menu{
+    background: #423A36;
+}
+.menu .navigation{
+    display: flex;
+    flex-flow: row;
+    list-style: none;
+    justify-content: center;
+
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 15px;
+
+    color: #FFFFFF;
+    margin-bottom: 0px;
+}
+.menu .navigation .tab{
+    padding-top: 24px;
+    padding-bottom: 21px;
+
+    margin-right: 3%;
 }

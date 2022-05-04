@@ -1,0 +1,16 @@
+footer{
+    background-color: #423A36;
+    text-align: center;
+
+    padding-top: 114px;
+}
+
+footer .info{
+    border-bottom: 1px solid #5E5754;
+}
+
+footer .belowfooter{
+    padding: 24px;
+    display: flex;
+    justify-content: center;
+}

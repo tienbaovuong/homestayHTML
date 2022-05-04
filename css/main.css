@@ -1,0 +1,180 @@
+/* first content */
+.first_content{
+    background-image: url("../images/content_1_laptop.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    width: 100%;
+    height: 48.07vw;
+}
+
+
+/* second content */
+.second_content{
+    display: flex;
+    justify-content: center;
+    padding-top: 163px;
+    padding-bottom: 146px;
+}
+.second_content .item{
+    display: inline-block;
+    text-align: center;
+
+    width: 20%;
+}
+.second_content .line{
+    margin-left: 51px;
+    margin-right: 51px;
+}
+
+/* third content */
+.third_content{
+    display: flex;
+    height: 40vw;
+}
+
+.third_content .cover{
+    display: inline-block;
+
+    background-image: url("../images/content_3_big.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    width: 50%;
+    height: 100%;
+}
+
+.third_content .text_content{
+    display: inline-block;
+    background-color: #FAF6F1;
+    
+    width: 50%;
+    height: 100%;
+}
+.third_content .text_content .third_line{
+    display: flex;
+    justify-content: center;
+}
+.third_content .text_content .third_line .column_one,.third_content .text_content .third_line .column_two{
+    display: inline-block;
+    width: 40%;
+}
+.third_content .text_content .third_line .item{
+    font-size: 14px;
+    line-height: 16px;
+
+    color: white;
+
+    margin-bottom: 12%;
+}
+
+/* fourth content */
+.fourth_content{
+    display: flex;
+    justify-content: center;
+}
+.fourth_content .arrow_left{
+    align-self: center;
+    height: 16px;
+    margin-right: 8%;
+}
+
+.fourth_content .arrow_right{
+    align-self: center;
+    height: 16px;
+    margin-left: 8%;
+}
+
+.fourth_content .rating{
+    width: 50%;
+}
+.fourth_content .rating .stars{
+    display: flex;
+    flex-flow: row;
+    list-style: none;
+    justify-content: center;
+
+    padding-left: 0px;
+}
+.fourth_content .rating .comment{
+    text-align: center;
+}
+.fourth_content .rating .avatar{
+    text-align: center;
+}
+.fourth_content .rating .username{
+    text-align: center;
+}
+.fourth_content .rating .address{
+    text-align: center;
+}
+
+/* fifth content */
+.fifth_content{
+    display: flex;
+    height: 45vw;
+
+    background: #fdecdc;
+}
+.fifth_content .text_content{
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+}
+.fifth_content .picture_content{
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+}
+.fifth_content .column_one{
+    display: inline-block;
+    height: 100%;
+    width: 48.5%;
+    margin-right: 2%;
+}
+.fifth_content .column_two{
+    display: inline-block;
+    height: 100%;
+    width: 48.5%;
+}
+.fifth_content .picture_content .picture1, .fifth_content .picture_content .picture2,
+.fifth_content .picture_content .picture3, .fifth_content .picture_content .picture4{
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.fifth_content .picture_content .picture1{
+    background-image: url(../images/content_5_1.png);
+    height: 49%;
+    margin-bottom: 3%;
+}
+.fifth_content .picture_content .picture2{
+    background-image: url(../images/content_5_2.png);
+    height: 49%;
+}
+.fifth_content .picture_content .picture3{
+    background-image: url(../images/content_5_3.png);
+    height: 49%;
+    margin-bottom: 3%;
+}
+.fifth_content .picture_content .picture4{
+    background-image: url(../images/content_5_4.png);
+    height: 49%;
+}
+
+/* sixth content */
+.sixth_content{
+    text-align: center;
+}
+.sixth_content img{
+    width: 60%;
+}
+
+
+/* seventh content */
+.seventh_content{
+    text-align: center;
+}
+.second_content .info{
+    display: flex;
+    justify-content: center;
+}
