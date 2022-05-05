@@ -4,8 +4,10 @@
 
     padding-top: 5px;
     padding-bottom: 40px;
-    padding-left:  16%;
     vertical-align: top;
+
+    display: flex;
+    justify-content: center;
 }
 .header1 .logo, .header1 .tel, .header1 .book_button,.header1 .language{
     display: inline-block;
@@ -21,7 +23,7 @@
     line-height: 24px;
     color: #6B6460;
 
-    margin-left: 5%;
+    margin-right: 5%;
     vertical-align: top;
 }
 
@@ -32,20 +34,42 @@
 }
 .header1 .logo{
     margin-top: 30px;
-    margin-left: 8%;
-    width: 15%;
+    width: 12%;
 }
 .header1 .logo img{
     width: 100%;
 }
 .header1 .tel{
-    margin-left: 7%;
+    margin-left: 5%;
+
+    font-size: 24px;
+    line-height: 28px;
+    color: #CF9D6C;
 }
 .header1 .book_button{
+    margin-top: 45px;
    margin-left:  5%;
+   height: 43px;
+
+   font-size: 14px;
+   line-height: 16px;
+   color: #FFFFFF;
+
+   padding-top: 13px;
+   padding-bottom: 14px;
+   padding-left: 35px;
+   padding-right: 34px;
+
+   background-color: #CF9D6C;
+   border-radius: 5px;
 }
 .header1 .language{
-    margin-left: 5px;
+    margin-left: 1%;
+    height: 30px;
+
+    font-size: 14px;
+    line-height: 16px;
+    border-bottom: 1px solid #CCCCCC;
 }
 .header1 .sidemenu{
     display: none;
