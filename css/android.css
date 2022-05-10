@@ -17,6 +17,7 @@
         flex-direction: column;
         justify-content: center;
         margin-top: 0px;
+        margin-left: 0px;
     }
     .header1 .sidemenu{
         display: flex;
@@ -24,7 +25,9 @@
         justify-content: center;
         margin-right: 5%;
     }
-    .menu{
+    
+    /*nav*/
+    nav{
         display: none;
     }
 

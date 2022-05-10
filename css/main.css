@@ -1,3 +1,46 @@
+.container-fluid{
+    padding: 0px;
+}
+/*section 1*/
+.first_content h2{
+    font-size: 82px;
+    line-height: 94px;
+    color: white;
+}
+.first_content h3{
+    font-size: 16px;
+    line-height: 18px;
+    color: white;
+
+    margin-bottom: 37px;
+}
+/*section 2*/
+.content_hoatdong_chuongtrinh h3{
+    font-size: 52px;
+    line-height: 60px;
+
+    margin-bottom: 5px;
+}
+.content_hoatdong_chuongtrinh h4{
+    font-size: 16px;
+    line-height: 28px;
+
+    color: #7A7A7A;
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+.content_hoatdong_chuongtrinh h5{
+    font-size: 18px;
+    line-height: 26px;
+
+    color:#CF9D6C;
+}
+
+/*section 3*/
+.content_map_book{
+    
+}
+
 /* first content */
 .first_content{
     background-image: url("../images/content_1_laptop.png");
@@ -11,19 +54,6 @@
     flex-direction: column;
     justify-content: center;
     text-align: center;
-}
-.first_content .line_one{
-    font-size: 16px;
-    line-height: 18px;
-    color: white;
-
-    margin-bottom: 37px;
-}
-.first_content .line_two{
-    font-size: 82px;
-    line-height: 94px;
-    color: white;
-    
 }
 .first_content .book_button{
     font-size: 16px;
@@ -53,14 +83,14 @@
 
     width: 20%;
 }
-.second_content .item p{
+.second_content .item h3{
     margin-top: 43px;
     margin-bottom: 27px;
 
     font-size: 24px;
     line-height: 28px;
 }
-.second_content .item span{
+.second_content .item h4{
     font-size: 16px;
     line-height: 26px;
 
@@ -96,22 +126,9 @@
     
     width: 50%;
     height: 100%;
-}
-.third_content .text_content .first_line{
-    font-size: 52px;
-    line-height: 60px;
 
-    color: white;
-    margin-left: 10%;
-    margin-bottom: 5%;
-}
-.third_content .text_content .second_line{
-    font-size: 16px;
-    line-height: 19px;
-
-    color: #C8C0B8;
-    margin-left: 10%;
-    margin-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 3%;
 }
 .third_content .text_content .third_line{
     display: flex;
@@ -119,7 +136,7 @@
 }
 .third_content .text_content .third_line .column_one,.third_content .text_content .third_line .column_two{
     display: inline-block;
-    width: 40%;
+    width: 50%;
 }
 .third_content .text_content .third_line .item{
     font-size: 14px;

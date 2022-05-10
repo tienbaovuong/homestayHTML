@@ -17,7 +17,7 @@
 
 .header1 .address, .header1 .mail{
     display: inline-block;
-    width: 7%;
+    width: 10%;
 
     font-size: 14px;
     line-height: 24px;
@@ -33,11 +33,11 @@
     left: -55px;
 }
 .header1 .logo{
-    margin-top: 30px;
-    width: 12%;
+    margin-top: 40px;
+    width: 15%;
 }
 .header1 .logo img{
-    width: 100%;
+    width: 110%;
 }
 .header1 .tel{
     margin-left: 5%;
