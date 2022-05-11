@@ -1,5 +1,38 @@
 @media (max-width: 1200px) {
+    /*section 1*/
+    .first_content h2{
+        font-size: 60px;
+        line-height: 64px;
+    }
+    .first_content h3{
+        font-size: 13px;
+        line-height: 15px;
+        margin-bottom: 18px;
+    }
+    /*section 2*/
+    .content_hoatdong_chuongtrinh h3{
+        font-size: 34px;
+        line-height: 39px;
+        margin-top: 8vw;
+    }
+    .content_hoatdong_chuongtrinh h4{
+        line-height: 26px;
+        margin-bottom: 8vw;
+    }
+    .content_hoatdong_chuongtrinh h5{
+        margin-bottom: 35px;
+    }
 
+    /*section 3*/
+    .content_map_book h3{
+        font-size: 34px;
+        line-height: 39px;
+        margin-bottom: 15px;
+    }
+    .content_map_book h4{
+        font-size: 16px;
+        margin-bottom: 35px;
+    }
     /*header*/
     .header1 .address, .header1 .mail, .header1 .tel, .header1 .book_button,.header1 .language{
         display: none;
@@ -36,15 +69,6 @@
         background-image: url("../images/content_1_android.png");
         height: 83.33vw;
     }
-    .first_content .line_one{
-        font-size: 13px;
-        line-height: 15px;
-        margin-bottom: 18px;
-    }
-    .first_content .line_two{
-        font-size: 60px;
-        line-height: 64px;
-    }
     .first_content .book_button{
         margin-top: 31px;
     }
@@ -77,21 +101,8 @@
     .third_content .text_content{
         width: 100%;
     }
-    .third_content .text_content .first_line{
-        font-size: 34px;
-        line-height: 39px;
-        margin-left: 5%;
-        margin-top: 8vw;
-    }
-    .third_content .text_content .second_line{
-        line-height: 26px;
-        margin-left: 5%;
-        margin-bottom: 8vw;
-    }
     .third_content .text_content .third_line{
         flex-direction: column;
-        padding-left: 5%;
-        padding-right: 5%;
     }
     .third_content .text_content .third_line .column_one,.third_content .text_content .third_line .column_two{
         width: 100%;
@@ -123,19 +134,6 @@
         padding-right: 5%;
         padding-bottom: 100px;
         width: 100%;
-    }
-    .fifth_content .text_content .line_one{
-        font-size: 34px;
-        line-height: 39px;
-    
-        margin-bottom: 15px;
-    }
-    .fifth_content .text_content .line_two{
-        font-size: 16px;
-        margin-bottom: 35px;
-    }
-    .fifth_content .text_content .line_three{
-        margin-bottom: 35px;
     }
     .fifth_content .text_content .line_four{
         flex-direction: column;
@@ -184,30 +182,12 @@
         width: 90%;
         margin-left: 5%;
     }
-    .sixth_content .line_one{
-        font-size: 34px;
-        line-height: 39px;
-        margin-bottom: 15px;
-    }
-    .sixth_content .line_two{
-        font-size: 16px;
-        margin-bottom: 35px;
-    }
-
+    
     /*content seven*/
     .seventh_content{
         padding-bottom: 50px;
         padding-left: 5%;
         padding-right: 5%;
-    }
-    .seventh_content .line_one{
-        font-size: 34px;
-        line-height: 39px;
-        margin-bottom: 15px;
-    }
-    .seventh_content .line_two{
-        font-size: 16px;
-        margin-bottom: 40px;
     }
     .seventh_content .line_three{
         flex-direction: column;
@@ -264,7 +244,7 @@
 }
 
 @media (max-width: 800px) {
-    .first_content .line_two{
+    .first_content h2{
         font-size: 24px;
         line-height: 28px;
     }

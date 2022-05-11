@@ -37,10 +37,24 @@
 }
 
 /*section 3*/
-.content_map_book{
-    
+.content_map_book h3{
+    font-size: 52px;
+    line-height: 60px;
+    margin-bottom: 5px;
 }
+.content_map_book h4{
+    font-size: 18px;
+    line-height: 26px;
+    
+    color: #CF9D6C;
+    margin-bottom: 62px;
+}
+.content_map_book h5{
+    font-size: 16px;
+    line-height: 28px;
 
+    color: #7A7A7A;
+}
 /* first content */
 .first_content{
     background-image: url("../images/content_1_laptop.png");
@@ -325,18 +339,6 @@
     width: 46%;
     margin-left: 27%;
 }
-.sixth_content .line_one{
-    font-size: 52px;
-    line-height: 60px;
-    margin-bottom: 5px;
-}
-.sixth_content .line_two{
-    font-size: 18px;
-    line-height: 26px;
-    
-    color: #CF9D6C;
-    margin-bottom: 62px;
-}
 .sixth_content img{
     width: 60%;
 }
@@ -346,18 +348,6 @@
 .seventh_content{
     text-align: center;
     padding-bottom: 58px;
-}
-.seventh_content .line_one{
-    font-size: 52px;
-    line-height: 60px;
-    margin-bottom: 7px;
-}
-.seventh_content .line_two{
-    font-size: 18px;
-    line-height: 26px;
-
-    color: #CF9D6C;
-    margin-bottom: 104px;
 }
 .seventh_content .line_three{
     display: flex;
