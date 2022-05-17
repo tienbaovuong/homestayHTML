@@ -1,28 +1,4 @@
 @media (max-width: 1200px) {
-    /*section 1*/
-    .first_content h2{
-        font-size: 60px;
-        line-height: 64px;
-    }
-    .first_content h3{
-        font-size: 13px;
-        line-height: 15px;
-        margin-bottom: 18px;
-    }
-    /*section 2*/
-    .content_hoatdong_chuongtrinh h3{
-        font-size: 34px;
-        line-height: 39px;
-        margin-top: 8vw;
-    }
-    .content_hoatdong_chuongtrinh h4{
-        line-height: 26px;
-        margin-bottom: 8vw;
-    }
-    .content_hoatdong_chuongtrinh h5{
-        margin-bottom: 35px;
-    }
-
     /*section 3*/
     .content_map_book h3{
         font-size: 34px;
@@ -65,84 +41,107 @@
     }
 
     /*content one*/
-    .first_content{
+    .banner{
         background-image: url("../images/content_1_android.png");
         height: 83.33vw;
     }
-    .first_content .book_button{
+    .banner .book_button{
         margin-top: 31px;
+    }
+    .banner h2{
+        font-size: 60px;
+        line-height: 64px;
+    }
+    .banner h3{
+        font-size: 13px;
+        line-height: 15px;
+        margin-bottom: 18px;
     }
 
     /*content two*/
-    .second_content{
-        flex-direction: column;
+    .diemnoibat{
         padding-top: 84px;
         padding-bottom: 88px;
-        padding-right: 5%;
-        padding-left: 5%;
     }
-    .second_content .item{
+    .diemnoibat .item{
         width: 100%;
         margin-bottom: 50px;
     }
-    .second_content .line{
+    .diemnoibat .line{
         display: none;
     }
 
     /*content three*/
-    .third_content{
-        flex-direction: column;
+    .taisaochonchungtoi .row{
         height: unset;
     }
-    .third_content .cover{
+    .taisaochonchungtoi .cover{
         width: 100%;
-        height: 80vw;
+        height: 100%;
     }
-    .third_content .text_content{
+    .taisaochonchungtoi h3{
+        font-size: 34px;
+        line-height: 39px;
+    }
+    .taisaochonchungtoi h4{
+        line-height: 26px;
+        margin-top: 8%;
+        margin-bottom: 10%;
+    }
+    .taisaochonchungtoi .text_content{
         width: 100%;
     }
-    .third_content .text_content .third_line{
+    .taisaochonchungtoi .text_content .third_line{
         flex-direction: column;
     }
-    .third_content .text_content .third_line .column_one,.third_content .text_content .third_line .column_two{
+    .taisaochonchungtoi .text_content .third_line .column_one,.taisaochonchungtoi .text_content .third_line .column_two{
         width: 100%;
     }
 
     /*content four*/
-    .fourth_content{
+    .review{
         padding-top: 68px;
         padding-bottom: 116px;
     }
-    .fourth_content .arrow_left, .fourth_content .arrow_right{
+    .review .arrow_left, .review .arrow_right{
         display: none;
     }
-    .fourth_content .rating{
-        width: 90%;
-    }
-    .fourth_content .rating .comment{
+    .review .rating .comment{
         font-size: 28px;
         line-height: 48px;
     }
 
     /*content five*/
-    .fifth_content{
+    .chuongtrinh{
         flex-direction: column;
         height: unset;
         padding-top: 56px;
     }
-    .fifth_content .text_content{
+    .chuongtrinh h3{
+        font-size: 34px;
+        line-height: 39px;
+    }
+    .chuongtrinh h4{
+        line-height: 26px;
+        margin-bottom: 10%;
+    }
+    .chuongtrinh h5{
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+    .chuongtrinh .text_content{
         padding-right: 5%;
         padding-bottom: 100px;
         width: 100%;
     }
-    .fifth_content .text_content .line_four{
+    .chuongtrinh .text_content .line_four{
         flex-direction: column;
         margin-bottom: 53px;
     }
-    .fifth_content .text_content .line_four .column_one, .fifth_content .text_content .line_four .column_two{
+    .chuongtrinh .text_content .line_four .column_one, .chuongtrinh .text_content .line_four .column_two{
         width: 100%;
     }
-    .fifth_content .picture_content{
+    .chuongtrinh .picture_content{
         width: 100%;
         height: unset;
 
@@ -150,54 +149,90 @@
         padding-right: 5%;
         padding-bottom: 60px;
     }
-    .fifth_content .column_one, .fifth_content .column_two{
+    .chuongtrinh .column_one, .chuongtrinh .column_two{
         width: 100%;
         height: unset;
         margin-right: 0px;
         margin-bottom: 10px;
     }
-    .fifth_content .picture_content .picture1{
+    .chuongtrinh .picture_content .picture1{
         background-image: url(../images/content_5_1_android.png);
         height: 131.25vw;
     }
-    .fifth_content .picture_content .picture2{
+    .chuongtrinh .picture_content .picture2{
         background-image: url(../images/content_5_2_android.png);
         height: 131.25vw;
     }
-    .fifth_content .picture_content .picture3{
+    .chuongtrinh .picture_content .picture3{
         background-image: url(../images/content_5_3_android.png);
         height: 131.25vw;
     }
-    .fifth_content .picture_content .picture4{
+    .chuongtrinh .picture_content .picture4{
         background-image: url(../images/content_5_4_android.png);
         height: 131.25vw;
     }
 
     /*content six*/
-    .sixth_content{
+    .danhlamthangcanh{
         padding-top: 60px;
         padding-bottom: 100px;
     }
-    .sixth_content .text_content{
-        width: 90%;
-        margin-left: 5%;
+    .danhlamthangcanh h3{
+        font-size: 34px;
+        line-height: 39px;
+        margin-bottom: 15px;
+    }
+    .danhlamthangcanh h4{
+        font-size: 16px;
+        margin-bottom: 35px;
+    }
+    .danhlamthangcanh .text_content{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .danhlamthangcanh img{
+        width: 100%;
+    }
+
+    /*footer*/
+    footer .info .line{
+        display: none;
     }
     
-    /*content seven*/
-    .seventh_content{
-        padding-bottom: 50px;
-        padding-left: 5%;
-        padding-right: 5%;
+}
+
+@media (max-width: 768px) {
+    .banner h2{
+        font-size: 24px;
+        line-height: 28px;
     }
-    .seventh_content .line_three{
+    .taisaochonchungtoi .cover{
+        width: 100%;
+        height: 80vw;
+    }
+
+    /*content seven*/
+    .datphong{
+        padding-bottom: 50px;
+    }
+    .datphong h3{
+        font-size: 34px;
+        line-height: 39px;
+        margin-bottom: 15px;
+    }
+    .datphong h4{
+        font-size: 16px;
+        margin-bottom: 35px;
+    }
+    .datphong .line_three{
         flex-direction: column;
     }
-    .seventh_content .line_three .item{
+    .datphong .line_three .item{
         width: 100%;
         margin-right: 0px;
         margin-bottom: 30px;
     }
-    .seventh_content .line_three .item .picture{
+    .datphong .line_three .item .picture{
         height: 63.75vw;
     }
 
@@ -240,12 +275,5 @@
     footer .belowfooter .copyright, footer .belowfooter .socialmedia{
         width: 100%;
         margin-bottom: 20px;
-    }
-}
-
-@media (max-width: 800px) {
-    .first_content h2{
-        font-size: 24px;
-        line-height: 28px;
     }
 }
