@@ -224,15 +224,11 @@
         font-size: 16px;
         margin-bottom: 35px;
     }
-    .datphong .line_three{
-        flex-direction: column;
-    }
-    .datphong .line_three .item{
-        width: 100%;
+    .datphong .item{
         margin-right: 0px;
         margin-bottom: 30px;
     }
-    .datphong .line_three .item .picture{
+    .datphong .item .picture{
         height: 63.75vw;
     }
 
