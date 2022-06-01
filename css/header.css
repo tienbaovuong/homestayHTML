@@ -17,27 +17,25 @@
 
 .header1 .address, .header1 .mail{
     display: inline-block;
-    width: 10%;
-
+    
     font-size: 14px;
     line-height: 24px;
     color: #6B6460;
 
-    margin-right: 5%;
     vertical-align: top;
 }
-
+.header1 .address{
+    padding-left: 10px;
+    padding-right: 50px;
+}
 .header1 .address img, .header1 .mail img{
     position: relative;
     top: 50px;
-    left: -55px;
+    left: -50px;
 }
 .header1 .logo{
     margin-top: 40px;
-    width: 15%;
-}
-.header1 .logo img{
-    width: 110%;
+    
 }
 .header1 .tel{
     margin-left: 5%;
@@ -48,8 +46,7 @@
 }
 .header1 .book_button{
     margin-top: 45px;
-   margin-left:  5%;
-   height: 43px;
+   margin-left:  20%;
 
    font-size: 14px;
    line-height: 16px;
@@ -71,7 +68,7 @@
     line-height: 16px;
     border-bottom: 1px solid #CCCCCC;
 }
-.header1 .sidemenu{
+.android_header{
     display: none;
 }
 /* header thu 2 */
