@@ -87,11 +87,15 @@
     .chuongtrinh{
         flex-direction: column;
         height: unset;
-        padding-top: 56px;
+    }
+    .chuongtrinh .row{
+        height: unset;
     }
     .chuongtrinh h3{
         font-size: 34px;
         line-height: 39px;
+
+        margin-top: 56px;
     }
     .chuongtrinh h4{
         line-height: 26px;
@@ -106,42 +110,31 @@
         padding-bottom: 100px;
         width: 100%;
     }
-    .chuongtrinh .text_content .line_four{
-        flex-direction: column;
-        margin-bottom: 53px;
-    }
-    .chuongtrinh .text_content .line_four .column_one, .chuongtrinh .text_content .line_four .column_two{
+    .chuongtrinh .text_content .line_four .item{
         width: 100%;
     }
     .chuongtrinh .picture_content{
         width: 100%;
         height: unset;
-
-        padding-left: 5%;
-        padding-right: 5%;
-        padding-bottom: 60px;
     }
-    .chuongtrinh .column_one, .chuongtrinh .column_two{
+    .chuongtrinh .picture_content .col-md-6{
         width: 100%;
-        height: unset;
-        margin-right: 0px;
-        margin-bottom: 10px;
     }
     .chuongtrinh .picture_content .picture1{
-        background-image: url(../images/content_5_1_android.png);
-        height: 131.25vw;
+        background-image: url(../images/content_5_1.png);
+        height: 45vw;
     }
     .chuongtrinh .picture_content .picture2{
-        background-image: url(../images/content_5_2_android.png);
-        height: 131.25vw;
+        background-image: url(../images/content_5_2.png);
+        height: 0vw;
     }
     .chuongtrinh .picture_content .picture3{
-        background-image: url(../images/content_5_3_android.png);
-        height: 131.25vw;
+        background-image: url(../images/content_5_3.png);
+        height: 45vw;
     }
     .chuongtrinh .picture_content .picture4{
-        background-image: url(../images/content_5_4_android.png);
-        height: 131.25vw;
+        background-image: url(../images/content_5_4.png);
+        height: 0vw;
     }
 
     /*content six*/
@@ -182,7 +175,28 @@
         width: 100%;
         height: 80vw;
     }
-
+    .chuongtrinh .col-md-6{
+        padding-right: calc(var(--bs-gutter-x) * .5);
+    }
+    .chuongtrinh .picture_content{
+        padding-bottom: 60px;
+    }
+    .chuongtrinh .picture_content .picture1{
+        background-image: url(../images/content_5_1_android.png);
+        height: 131.25vw;
+    }
+    .chuongtrinh .picture_content .picture2{
+        background-image: url(../images/content_5_2_android.png);
+        height: 131.25vw;
+    }
+    .chuongtrinh .picture_content .picture3{
+        background-image: url(../images/content_5_3_android.png);
+        height: 131.25vw;
+    }
+    .chuongtrinh .picture_content .picture4{
+        background-image: url(../images/content_5_4_android.png);
+        height: 131.25vw;
+    }
     /*content seven*/
     .datphong{
         padding-bottom: 50px;
