@@ -66,10 +66,7 @@
     .taisaochonchungtoi .text_content{
         width: 100%;
     }
-    .taisaochonchungtoi .text_content .third_line{
-        flex-direction: column;
-    }
-    .taisaochonchungtoi .text_content .third_line .column_one,.taisaochonchungtoi .text_content .third_line .column_two{
+    .taisaochonchungtoi .text_content .third_line .item{
         width: 100%;
     }
 

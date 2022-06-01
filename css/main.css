@@ -69,7 +69,6 @@
 /* third content */
 .taisaochonchungtoi .row{
     margin: 0px;
-    height: 40vw;
 }
 .taisaochonchungtoi .row .col-md-6{
     padding: 0px;
@@ -110,12 +109,10 @@
     padding-right: 3%;
 }
 .taisaochonchungtoi .text_content .third_line{
+    list-style: none;
     display: flex;
-    justify-content: center;
-}
-.taisaochonchungtoi .text_content .third_line .column_one,.taisaochonchungtoi .text_content .third_line .column_two{
-    display: inline-block;
-    width: 50%;
+    flex-wrap: wrap;
+    padding-left: 0px;
 }
 .taisaochonchungtoi .text_content .third_line .item{
     font-size: 14px;
@@ -124,6 +121,7 @@
     color: white;
 
     margin-bottom: 12%;
+    width: 50%;
 }
 .taisaochonchungtoi .text_content .third_line .item img{
     margin-right: 10px;
@@ -236,17 +234,17 @@
 }
 .chuongtrinh .text_content .line_four{
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+
     margin-bottom: 6%;
-}
-.chuongtrinh .text_content .line_four .column_one, .chuongtrinh .text_content .line_four .column_two{
-    display: inline-block;
-    width: 50%;
+    padding-left: 0px;
 }
 .chuongtrinh .text_content .line_four .item{
     font-size: 14px;
     line-height: 16px;
 
+    width: 50%;
     margin-bottom: 6%;
 }
 .chuongtrinh .text_content .line_four .item img{
